@@ -2,5 +2,7 @@
   <p><%=item.name%></p>
 <% end %>
 <%= form_tag 'products/add' %>
-  <%= submit_tag "add to cart"%>
+  <%= label_tag "item name"%>
+  <%= text_field_tag "item_name" %>
+  <%= submit_tag "add to cart" %>
 <% end %>
