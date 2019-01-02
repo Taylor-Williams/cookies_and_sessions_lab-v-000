@@ -1,5 +1,5 @@
 <% cart.each do |item| %>
-  <p><%=item.name%></p>
+  <p><%=item%></p>
 <% end %>
 <%= form_tag 'products/add' do %>
   <%= label_tag "item name" %>
