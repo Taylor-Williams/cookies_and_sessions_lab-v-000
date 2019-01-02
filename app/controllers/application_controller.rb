@@ -9,4 +9,6 @@ class ApplicationController < ActionController::Base
     end
     session[:cart]
   end
+
+  helper_method :cart
 end
